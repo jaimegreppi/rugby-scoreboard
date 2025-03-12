@@ -82,6 +82,8 @@ function newGame() {
     pointsG = 0
     hScorer.textContent = pointsH
     gScorer.textContent = pointsG
+    hScorer.style.textDecoration = "none"
+    gScorer.style.textDecoration = "none"
     enableButtons1H()
     disableButtons2H()
     enableButtons1G()
